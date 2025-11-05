@@ -17,7 +17,7 @@ jobs:
         env:
           AZURE_ORG: "Infrabuild-TEST"           
           AZURE_PROJECT: "Space Game - web"   
-          AZURE_PROJECT_ENCODED: "Space%Game%-%web" 
+          AZURE_PROJECT_ENCODED: "Space%20Game%20-%20web" 
           AZURE_REPO: "hoon_test_2"         
           AZURE_PAT: ${{ secrets.AZURE_PAT }}
         run: |
